@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind css final project</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+
+    <nav class="bg-white  p-4">
+        <div class="max-w-6xl mx-auto md:flex justify-between items-center ">
+            
+            <div class=" font-bold text-base ">final project </div>
+
+            <div class="flex space-x-6  hidden md:block ">
+                <a href="#" class="text-xl  hover:text-gray-500">home</a>
+                <a href="#" class="text-xl hover:text-gray-500">about</a>
+                <a href="#" class="text-xl hover:text-gray-500">service</a>
+                <a href="#" class="text-xl hover:text-gray-500">contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- hero -->
+    <div class="flex flex-col text-center   ">
+        <div class="bg-blue-900  p-30  text-2xl  ">
+            <h1 class=" text-white text-5xl font-bold">transform ideas to agentic</h1>
+            <p class="text-gray-300 text-xl m-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class=" bg-white px-6 py-2 rounded-lg m-2">get started</button>
+
+        </div>
+    </div>
+
+    <!-- why choose us  -->
+
+
+    <div class=" bg-gray-100 p-10 ">
+        <div class="max-w-6xl mx-auto">
+
+
+            <!-- items -->
+            <h1 class="font-bold text-2xl text-center m-10">why choose us </h1>
+            <!-- cards -->
+            <div class="grid grid-cols-1 gap-8 m-4 px-6 md:grid-cols-2  lg:grid-cols-3            mx-auto ">
+
+
+                <div class="bg-white shadow-lg rounded-lg  p-6">
+                    <div class="text-xl font-bold">lighting fast</div>
+                    <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <div class="text-xl font-bold">lighting fast</div>
+                    <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <div class="text-xl font-bold">lighting fast</div>
+                    <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" max-w-6xl mx-auto p-20 ">
+        <!-- items -->
+        <h1 class="font-bold text-2xl text-center m-10">what ur clients say</h1>
+        <!-- cards -->
+        <div class=" grid grid-cols-1 md:grid-cols-2  gap-10 ">
+
+
+            <div class="bg-white shadow-lg m-2  p-6 rounded-lg ">
+                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+                <img src="" alt="">
+                <div>sarah johnston</div>
+                <p>founder design studio</p>
+            </div>
+
+            <div class="bg-white shadow-lg m-2 p-8 rounded-lg ">
+                <span>Lorem, ipsum dolor sit amet consectetur adipisicing.</span>
+                <div>dugsiiye</div>
+                <p>founder dugsiiye</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- procing -->
+
+    <!-- container -->
+    <div class="bg-gray-100 p-20 ">
+        <h1 class="  mb-12 text-center text-black font-bold text-2xl ">simpal transparent pricing</h1>
+
+        <!-- cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2   lg:grid-cols-3  gap-6 gap-8">
+
+            <div class="bg-white rounded-lg p-6  grid grid-cols ">
+
+                <h1 class="text-1xl font-bold my-4">starter</h1>
+                <span class="font-bold mt-2 text-2xl">$29 <span class="text-gray-400">/mo</span></span>
+                <p class="mt-2">basic features</p>
+                <p>5 projects</p>
+                <p>basic support</p>
+                <button class=" px-2 py-2   bg-blue-900 text-white rounded-lg mt-6 ">get started</button>
+
+            </div>
+
+            <div class="bg-white border-2 border-blue-500 rounded-lg p-6 grid grid-cols">
+                <h1 class="my-2">professional</h1>
+                <span class="font-bold mt-2 text-2xl mt-2">$29 <span class="text-gray-400">/mo</span></span>
+                <p class="mt-2">advenced features</p>
+                <p class="mt-4">unlimited projects</p>
+                <p>priority support</p>
+                <button class="  px-2 py-2 bg-blue-900 text-white rounded-lg mt-4 ">contact sales</button>
+            </div>
+
+            <div class="bg-white rounded-lg p-6 grid grid-cols">
+                <h1 class="my-2">interprise</h1>
+                <span class="font-bold mt-2 text-2xl">$29 <span class="text-gray-400">/mo</span></span>
+                <p class="mt-2">custom features</p>
+                <p>dedicated support</p>
+                <p>sla agreement</p>
+                <button class="  px-2 py-2 bg-blue-900 text-white rounded-lg mt-4 ">contact sales</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contact -->
+
+
+
+
+    <div class=" max-w-6xl mx-auto p-16">
+        <h1 class="font-bold text-center text-2xl mb-8 ">get in touch</h1>
+        <div class=" flex justify-center ">
+            <form action="" class="flex flex-col justify-center ">
+                <label for="" class="mb-2">name</label><br>
+                <input type="name" class="border-b border-blac rounded-lg   hover:border-blue-500 "><br>
+                <label for="" class="mb-2">email</label><br>
+                <input type="email" name="" id="" class="border-b rounded hover:border-blue-500  "> <br>
+                <label for="" class="mb-2">massege</label> <br>
+                <textarea name="" id="" class="border-b mt-4 rounded  hover:border-blue-500 "></textarea>
+                <button class="bg-blue-600 mt-4  text-white rounded px-40  py-2">send message</button>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class=" bg-black text-white p-15">
+        <div class="max-w-6xl mx-auto  ">
+
+
+
+            <!-- links  -->
+            <div class="flex justify-between border-b border-gray-700 pb-8
+             flex-col  md:flex-row ">
+
+                <div>
+                    <h1 class="text-xl font-bold ">company logo</h1>
+                    <p class="text-gray-500 mt-4 mb-6  ">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                        Reprehenderit id sit quaerat.</p>
+                </div>
+
+                <div class="flex flex-col text-gray-300 mb-6 ">
+                    <h2 class="font-bold">quick links</h2>
+                    <a href=""  class="text-gray-500" >feature</a>
+                    <a href="" class="text-gray-500" >testmonials </a>
+                    <a href="" class="text-gray-500" >pricing</a>
+                </div>
+                <div class="flex flex-col text-gray-300 mb-6 ">
+                    <h2 class="font-bold">legal</h2>
+                    <a href="" class="text-gray-500" >privacy policy</a>
+                    <a href=""  class="text-gray-500" >terms& condition </a>
+
+                </div>
+
+                <div>
+                    <h1 class="font-bold ">contact</h1>
+                    <div class="text-gray-500">
+                        <a href="">twitter</a>
+                        <a href="">youtube</a>
+                        <a href="">facebook</a>
+                    </div>
+                </div>
+            </div>
+        <p class="text-center mt-8 " >&COPY;2026 company all right reserved</p>
+        </div>
+    
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
